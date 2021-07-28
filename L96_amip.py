@@ -1,8 +1,11 @@
 """
-Definition of the Lorenz96 model.
+Modified version of the Lorenz96 (originaly created by Stephan Rasp, see https://github.com/raspstephan/Lorenz-Online) 
+for Athmospheric Model Intercomparison Project (AMIP) models tuning
 
-Created on 2019-04-16-12-28
-Author: Stephan Rasp, raspstephan@gmail.com
+Created on 2021-07-28-10-26
+Author : Durand Homer, Redouane Lguensat
+
+Original script by : Stephan Rasp, raspstephan@gmail.com
 """
 import sys
 def in_notebook():
