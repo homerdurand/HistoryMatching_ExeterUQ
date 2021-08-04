@@ -15,7 +15,9 @@ will create a conda env named *env_name*. If you do not specify *env_name*
 Rscript requirements.R 
 ```
 
-you create a conda env named *env-HM* which is automatically load in the R notebooks that needs the python libraries *sklearn*, *skoptimize* and *numpy*. 
+will create a conda env named *env-HM* which is automatically load in the R notebooks that needs the python libraries *sklearn*, *skoptimize* and *numpy*. 
+
+The *requirements.R*, when executing, also install the R libraries needed for the majority of R jupyter notebook used for History Matching. 
 
 ## Notebooks
 
