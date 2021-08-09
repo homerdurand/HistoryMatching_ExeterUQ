@@ -123,6 +123,7 @@ dependencies:
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
   - notebook=6.4.1=py39h06a4308_0
   - numexpr=2.7.3=py39h22e1b3c_1
+  - numpy-base=1.20.3=py39h74d4b33_0
   - oauthlib=3.1.1=pyhd3eb1b0_0
   - olefile=0.46=pyh9f0ad1d_1
   - openjpeg=2.4.0=hb52868f_1
@@ -156,6 +157,7 @@ dependencies:
   - pysocks=1.7.1=py39h06a4308_0
   - python=3.9.6=h12debd9_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python-flatbuffers=1.12=pyhd3eb1b0_0
   - python_abi=3.9=2_cp39
   - pytz=2021.1=pyhd3eb1b0_0
   - pyyaml=5.4.1=py39h27cfd23_1
@@ -201,6 +203,7 @@ dependencies:
   - setuptools=52.0.0=py39h06a4308_0
   - sip=4.19.13=py39h2531618_0
   - sqlite=3.36.0=hc218d9a_0
+  - tensorflow-base=2.4.1=mkl_py39h43e0292_0
   - tensorflow-estimator=2.5.0=pyh7b7c402_0
   - termcolor=1.1.0=py39h06a4308_1
   - terminado=0.9.4=py39h06a4308_0
@@ -210,6 +213,7 @@ dependencies:
   - tktable=2.10=h14c3975_0
   - tornado=6.1=py39h27cfd23_0
   - traitlets=5.0.5=pyhd3eb1b0_0
+  - typing_extensions=3.10.0.0=pyh06a4308_0
   - tzdata=2021a=h52ac0ba_0
   - urllib3=1.26.6=pyhd3eb1b0_1
   - wcwidth=0.2.5=py_0
