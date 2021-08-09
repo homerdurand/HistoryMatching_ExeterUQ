@@ -1,5 +1,7 @@
 # HistoryMatching_ExeterUQ
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/homerdurand/HistoryMatching_ExeterUQ/HEAD)
+
 ## Requirements
 
 The R jupyter notebooks used for history matching use some python libraries (sklearn, skoptimize, numpy). In order to use them we recommand installing them in a conda environnement. You can use the *requirements.R* script for this purpose. It will install all required python libraries.
