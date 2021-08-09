@@ -271,13 +271,24 @@ class L96TwoLevel(object):
                     'y': np.arange(self.K * self.J)}
         )
 
-    def mean_stats(self, ax=None, fn=np.mean):
-        h_Y = np.array(self._history_Y)
-        metrics = []
-        for k in range(self.K) :
-            Newarray = h_Y[:,k*self.J:(k+1)*self.J]
-            for u in range(self.J):
-                for v in range(u,self.J,1):
-                    Newarray = np.concatenate([Newarray, (h_Y[:,u]*h_Y[:,v])[:,None]], axis=1)
-            metrics.append(np.atleast_1d(fn(Newarray, ax)))
-        return np.array(metrics).flatten()
+    def mean_stats(self, ax=None, fn=np.mean, amip_metrics=True):
+        if amip_metrics :
+            h_Y = np.array(self._history_Y)
+            metrics = []
+            for k in range(self.K) :
+                Newarray = h_Y[:,k*self.J:(k+1)*self.J]
+                for u in range(self.J):
+                    for v in range(u,self.J,1):
+                        Newarray = np.concatenate([Newarray, (h_Y[:,u]*h_Y[:,v])[:,None]], axis=1)
+                metrics.append(np.atleast_1d(fn(Newarray, ax)))
+            return np.array(metrics).flatten()
+
+        else:
+            h = self.history
+            return np.concatenate([
+                np.atleast_1d(fn(h.X, ax)),
+                np.atleast_1d(fn(h.Y_mean, ax)),
+                np.atleast_1d(fn((h.X ** 2), ax)),
+                np.atleast_1d(fn((h.X * h.Y_mean), ax)),
+                np.atleast_1d(fn(h.Y2_mean, ax))
+            ])
