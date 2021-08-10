@@ -147,6 +147,7 @@ dependencies:
   - pyasn1=0.4.8=py_0
   - pyasn1-modules=0.2.8=py_0
   - pycparser=2.20=py_2
+  - pycurl==7.43.0.5=py38h1ba5d50_0
   - pygments=2.9.0=pyhd3eb1b0_0
   - pyjwt=2.1.0=py39h06a4308_0
   - pyopenssl=20.0.1=pyhd3eb1b0_1
