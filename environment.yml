@@ -86,7 +86,7 @@ dependencies:
   - astunparse
   - blas==1.0=mkl
   - r-irkernel==0.8.15=r36_0
-  - krb5==1.17.1=h173b8e3_0
+  - krb5==1.19.2=hac12032_0
   - ncurses==6.2=he6710b0_1
   - r-htmltools==0.3.6=r36h29659fb_0
   - gstreamer==1.14.0=h28cd5cc_2
