@@ -77,7 +77,7 @@ dependencies:
   - qtpy==1.9.0=py_0
   - r-digest==0.6.18=r36h96ca727_0
   - glib==2.69.0=h5202010_0
-  - libcurl==7.69.1=h20c2e04_0
+  - libcurl==7.71.1=h303737a_2
   - qtconsole
   - bzip2==1.0.8=h7b6447c_0
   - c-ares==1.17.1=h27cfd23_0
