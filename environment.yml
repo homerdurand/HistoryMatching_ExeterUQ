@@ -1,1 +1,8 @@
-[y/N]: 
+name: HM
+dependencies:
+ - python
+ - ipython
+ - pandas
+ - scikit-learn
+ - scikit-optimize
+ - numpy
