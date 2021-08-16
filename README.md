@@ -17,7 +17,7 @@ conda env create -f environment.yml
 conda activate HM
 ```
 
-Finally you need to install the R packages required :
+Finally you may need to manually install the R packages required, you can for this purpose use the *install.R* script :
 
 ```console
 Rscript install.R 
