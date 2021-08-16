@@ -1,6 +1,6 @@
 # HistoryMatching_ExeterUQ
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/homerdurand/HistoryMatching_ExeterUQ/HEAD)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/homerdurand/HistoryMatching_ExeterUQ/main?urlpath=lab)
 
 ## Requirements
 
